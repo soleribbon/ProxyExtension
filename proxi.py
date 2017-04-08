@@ -7,20 +7,21 @@ print "\n"
 
 userpass = raw_input("Do the proxies need :user:pass? (y/n): ")
 
-
+port = raw_input("Port: ")
+global port
 
 new_lines = []
 if userpass == "y":
-    port = (raw_input("Port:"))
-    user = (raw_input("User: "))
-    passw = (raw_input("Pass: "))
+
+    user = raw_input("User: ")
+    passw = raw_input("Pass: ")
     with open("proxies.txt") as f:
         new_lines = [line.strip("\n") + ":" + (port) + ":" + (user) + ":" + (passw) for line in f]
     with open("proxies.txt","w") as f:
         f.write("\n".join(new_lines))
     print "Done!"   
 if userpass == "n":
-    port = (raw_input("Port:"))
+
     with open("proxies.txt") as f:
         new_lines = [line.strip("\n") + ":" + (port) for line in f]
     with open("proxies.txt","w") as f:

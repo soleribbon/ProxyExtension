@@ -6,7 +6,7 @@
 3. PRESS ENTER
 
 
-*#RUNNING:*
+*RUNNING:*
 1. TYPE: cd proxyextension
 2. PRESS ENTER
 3. ENTER IPS INTO proxies.txt FILE (ONE IP PER LINE!)

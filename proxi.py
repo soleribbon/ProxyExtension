@@ -17,13 +17,20 @@ if userpass == "y":
     passw = raw_input("Pass: ")
     with open("proxies.txt") as f:
         new_lines = [line.strip("\n") + ":" + (port) + ":" + (user) + ":" + (passw) for line in f]
+        
     with open("proxies.txt","w") as f:
         f.write("\n".join(new_lines))
-    print "Done!"   
+        f.close() 
+    print "DONE!"
+
+
+    
+        
 if userpass == "n":
 
     with open("proxies.txt") as f:
         new_lines = [line.strip("\n") + ":" + (port) for line in f]
     with open("proxies.txt","w") as f:
         f.write("\n".join(new_lines))
+        f.close()
     print "Done!"

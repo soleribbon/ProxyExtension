@@ -1,5 +1,5 @@
 # PROXY EXTENSIONS
-## By [@Masterkidravi](https://twitter.com/soleribbon) 
+## By [@Masterkidravi](https://twitter.com/masterkidravi) 
 *INSTALLATION GUIDE:*
 1. OPEN TERMINAL/CMD SHELL
 2. TYPE: git clone https://github.com/soleribbon/proxyextension.git

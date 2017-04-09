@@ -1,6 +1,6 @@
 # PROXY EXTENSIONS
 ## By [@Masterkidravi](https://twitter.com/masterkidravi) 
-## PYTHON 2 IS proxi.py /// PYTHON 3 IS PROXI3.PY
+## PYTHON 2 IS PROXI.PY /// PYTHON 3 IS PROXI3.PY
 *INSTALLATION GUIDE:*
 1. OPEN TERMINAL/CMD SHELL
 2. TYPE: git clone https://github.com/soleribbon/proxyextension.git

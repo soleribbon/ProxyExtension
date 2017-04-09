@@ -11,7 +11,7 @@
 1. TYPE: cd proxyextension
 2. PRESS ENTER
 3. ENTER IPS INTO proxies.txt FILE (ONE IP PER LINE!)
-4. (IN TERMINAL/CMD) TYPE: python proxi.py
+4. (IN TERMINAL/CMD) TYPE: python proxi.py (OR proxi3.py IF YOU ARE USING PYTHON 3)
 
 *LOOK AT proxies.txt FILE*
 
